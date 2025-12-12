@@ -1,3 +1,9 @@
+
+
+
+
+
+
 const express = require('express');
 const router = express.Router();
 const Orders = require('../../schemes/order');
@@ -12,3 +18,5 @@ router.get('/orders', async (_, res) => {
 });
 
 module.exports = router;
+
+

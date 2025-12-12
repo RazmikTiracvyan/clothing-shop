@@ -19,6 +19,8 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 router.post("/add-product", upload.single("image"), async (req, res) => {
+  console.log('okok');
+  
   try {
     const image = req.file ? req.file.path : null; 
 
