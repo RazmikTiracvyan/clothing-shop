@@ -86,13 +86,12 @@ export const AddProductForm = ({ setOpenAddingForm }) => {
               onChange={handleChange}
             >
               <Options value="">Choose a category</Options>
-              <Options value="gorg">Gorg</Options>
-              <Options value="sproc">Sproc</Options>
-              <Options value="varaguyr">Varaguyr</Options>
-              <Options value="ankoxnayin-paraga">Ankoxnayin paraga</Options>
-              <Options value="bardz">Bardzer</Options>
-              <Options value="srbich">Srbich</Options>
-              <Options value="komplekt">Komplekt</Options>
+              <Options value="gorg">Polo</Options>
+              <Options value="sproc">Trousers</Options>
+              <Options value="varaguyr">Shoes</Options>
+              <Options value="ankoxnayin-paraga"> Watch</Options>
+              <Options value="bardz">Braclets</Options>
+              <Options value="srbich">jacket</Options>
             </SelectPart>
 
             <InputToType

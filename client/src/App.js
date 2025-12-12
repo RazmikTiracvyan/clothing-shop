@@ -12,7 +12,7 @@ import {
   BasketPage,
 } from "./containers";
 
-import { FilteredShop, Footer, Header, ScrolltoTop } from "./components";
+import { Footer, Header, ScrolltoTop } from "./components";
 import { Admin } from "./admin";
 
 export const App = () => {
